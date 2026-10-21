@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment-specific secrets
+.env
+**/.env
+!.env.example
+
+# Generated build output
+dist/
+**/dist/
+
+# Archives and logs
+*.zip
+*.log
